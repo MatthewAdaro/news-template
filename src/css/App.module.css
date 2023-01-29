@@ -1,0 +1,12 @@
+.content {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  margin: 20px;
+  grid-row-gap: 20px;
+}
+
+.pagination {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
