@@ -193,7 +193,8 @@ function App() {
     },
   ];
 
-  console.log(dataVal);
+  const reverseNew = dataVal.reverse();
+ 
 
   return (
     <div>
@@ -208,7 +209,7 @@ function App() {
         <Route path="/travel" element={<Travel />} />
       </Routes>
       <div className={design.content}>
-        {dataVal.map((news, index) => {
+        {reverseNew.map((news, index) => {
           return (
             <DataCard key={index} title={news.title} category={news.category} />
           );
