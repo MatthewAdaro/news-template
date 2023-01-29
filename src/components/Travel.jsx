@@ -1,7 +1,7 @@
 import React from "react";
 
 function Travel() {
-  return <h1>Travel</h1>;
+  return <div></div>;
 }
 
 export default Travel;
