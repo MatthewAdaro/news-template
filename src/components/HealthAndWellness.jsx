@@ -1,7 +1,7 @@
 import React from "react";
 
 function HealthAndWellness() {
-  return <h1>Health and Wellness</h1>;
+  return <div></div>;
 }
 
 export default HealthAndWellness;
